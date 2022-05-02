@@ -29,9 +29,6 @@ function ScreenColor() {
       <Route exact path='/rgb/:r/:g/:b'>
         <RGB />
       </Route>
-      <Route path='*'>
-        <p>None found!</p>
-      </Route>
     </Switch>
   </div>;
 }
