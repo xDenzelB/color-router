@@ -2,6 +2,7 @@ import {
   Link,
   Redirect,
   BrowserRouter as Router,
+  useParams,
   Route,
 } from 'react-router-dom';
 
