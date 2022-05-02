@@ -11,14 +11,15 @@ import styles from './App.css';
 function RGB() {
   // 🚨 Get values for r, g, and b from params
   // 🚨 Uncomment next lines after importing
-  // return (
-  // <div
-  //   className={styles.fill}
-  //   style={{ background: `rgb(${r}, ${g}, ${b})` }}
-  // >
-  //   <p>{`rgb(${r},${g},${b})`}</p>
-  // </div>
-  // );
+  const { r, g, b } = useParams();
+  return (
+  <div
+    className={styles.fill}
+    style={{ background: `rgb(${r}, ${g}, ${b})` }}
+  >
+    <p>{`rgb(${r},${g},${b})`}</p>
+  </div>
+  );
 }
 
 function ScreenColor() {
